@@ -1,8 +1,8 @@
 # qb-healer
 Simple healer ped script for QBCore
 
-# Creating new ped
-[1] = { 
+# Creating new ped params
+
 ped = 's_m_m_doctor_01', -- ped name from https://docs.fivem.net/docs/game-references/ped-models/ </br>
 scenario = 'WORLD_HUMAN_CLIPBOARD', -- scenario name from https://wiki.rage.mp/index.php?title=Scenarios </br>
 coords = vector4(3578.67, 3766.32, 29.98, 244.62), -- location </br>
@@ -14,5 +14,4 @@ blip = { -- nil to disable, https://docs.fivem.net/docs/game-references/blips/ <
   color = 1, -- color of blip </br>
   sprite = 1, -- sprite of blip </br>
   scale = 1.0  -- scale of blip </br>
-  } 
 }
